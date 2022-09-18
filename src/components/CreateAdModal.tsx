@@ -35,11 +35,9 @@ export const CreateAdModal = () => {
     const formData = new FormData(event.target as HTMLFormElement)
     
     const data = Object.fromEntries(formData)
-    
-    console.log(data.game)
 
    try{
-    await axios.post(`http://localhost:3333/games/1b15af7c-e9f4-4e82-8216-77190a884885/ads`, {
+    await axios.post(`http://localhost:3333/games/${data.game}/ads`, {
       name: data.name,
       yearsPlaying: Number(data.yearsPlaying),
       discord: data.discord,
