@@ -1,4 +1,4 @@
-<h1 align="center">FIND DUO</h1>
+<h1 align="center">FIND YOUR DUO</h1>
 
 <p align="center">Aplicação web para encontrar seu duo no seu jogo favorito!<p>
 
